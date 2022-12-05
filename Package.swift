@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "MyDemoChecklistFramework",
     platforms: [.iOS(.v13)],
-    products: [
+    products: [ 
         .library(
             name: "MyDemoChecklistFramework",
             targets: ["MyDemoChecklistFramework"]),

@@ -9,7 +9,7 @@ import Foundation
 
 public class Checklist {
     
-    public private(set) var tasks: [Task] = []
+    var tasks: [Task] = []
     
     public init() {}
     
